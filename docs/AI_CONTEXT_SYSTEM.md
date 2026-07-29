@@ -2,27 +2,27 @@
 
 ## 1. Amaç
 
-SedatOS AI Context System, yapay zekanın kullanıcıyı, şirketi ve çalışma ortamını anlamasını sağlayan temel bağlam katmanıdır.
+SedatOS AI Context System, yapay zekanın kullanıcıyı, şirketi ve çalışma ortamını anlamasını sağlayan bağlam yönetim katmanıdır.
 
 Amaç:
 
 - Kişiselleştirilmiş AI deneyimi oluşturmak
-- Rol bazlı davranış sağlamak
+- Rol bazlı AI davranışı sağlamak
 - Doğru veri erişimi sağlamak
-- Kurumsal karar desteğini güçlendirmek
+- AI cevaplarının kullanıcı ve şirket durumuna uygun olmasını sağlamak
 
 ---
 
 # 2. Kullanıcı Bağlamı
 
-AI aşağıdaki bilgileri bilmelidir:
+AI aşağıdaki bilgileri değerlendirir:
 
 - Kullanıcı kimliği
 - Kullanıcı rolü
 - Kullanıcı tercihleri
 - Kullanıcı geçmişi
-- Kullanıcının görevleri
-- Kullanıcının hedefleri
+- Görevler
+- Hedefler
 
 ---
 
@@ -35,10 +35,9 @@ AI şirket seviyesinde:
 - Departmanlar
 - Projeler
 - Müşteriler
-- Finans verileri
 - İş süreçleri
 
-bilgilerini yönetir.
+bilgilerini kullanır.
 
 ---
 
@@ -48,80 +47,56 @@ bilgilerini yönetir.
 
 AI:
 
-- Stratejik analiz yapar.
-- Holding seviyesinde öneriler sunar.
-- Tüm şirket durumunu analiz eder.
-
----
+- Stratejik bakış sağlar.
+- Şirket genel durumunu analiz eder.
 
 ## CEO
 
 AI:
 
-- Yönetim özeti oluşturur.
-- KPI analizi yapar.
-- Riskleri gösterir.
-- Karar desteği verir.
-
----
+- Yönetim özetleri oluşturur.
+- KPI ve performans bilgilerini sunar.
 
 ## Yönetici
 
 AI:
 
-- Departman analizleri yapar.
-- Ekip performansını değerlendirir.
-- Operasyon önerileri sunar.
-
----
+- Departman ve ekip analizleri sağlar.
+- Operasyon desteği verir.
 
 ## Çalışan
 
 AI:
 
 - Görev desteği sağlar.
-- İş akışlarını kolaylaştırır.
-- Kişisel verimlilik önerileri verir.
+- Verimlilik önerileri sunar.
 
 ---
 
-# 5. Veri Erişim Kontrolü
-
-AI her işlem öncesinde kontrol eder:
-
-- Kullanıcı yetkisi
-- Şirket bağlantısı
-- Rol seviyesi
-- Veri erişim izni
-
----
-
-# 6. Context Pipeline
+# 5. Context Pipeline
 
 AI işlem sırası:
 
-1. Kullanıcı kimliğini al
-2. Rol bilgisini kontrol et
-3. Şirket bilgisini yükle
-4. Yetkileri doğrula
-5. İlgili verileri analiz et
-6. Sonuç üret
+1. Kullanıcı kimliğini alır.
+2. Rol bilgisini kontrol eder.
+3. Şirket bağlamını yükler.
+4. Yetki durumunu doğrular.
+5. Uygun bilgileri kullanarak cevap üretir.
 
 ---
 
-# 7. Güvenlik İlkesi
+# 6. Veri Erişim Prensibi
 
 AI:
 
-- Yetkisiz veri göremez.
-- Şirketler arası veri paylaşamaz.
-- Rol dışı bilgi sunamaz.
-- Hassas bilgileri korur.
+- Kullanıcının yetkisi dışındaki verilere erişmez.
+- Şirketler arası veri karışıklığını önler.
+- Rol seviyesine göre davranır.
 
 ---
 
-# 8. Hedef
+# 7. Hedef
 
 SedatOS AI Context System;
 
-kişisel asistan seviyesinden kurumsal holding seviyesine kadar çalışan güvenli ve kişiselleştirilmiş yapay zeka altyapısının temelidir.
+kişisel kullanıcıdan kurumsal holding seviyesine kadar güvenli, kişiselleştirilmiş ve bağlama duyarlı yapay zeka deneyiminin temel altyapısıdır.
