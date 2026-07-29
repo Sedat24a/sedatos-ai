@@ -2,137 +2,110 @@
 
 ## 1. Amaç
 
-SedatOS AI Engine, kişisel ve kurumsal karar süreçlerini destekleyen yapay zeka çekirdeğidir.
+SedatOS AI Engine, SedatOS platformunun yapay zeka çekirdeğidir.
 
-Amaçları:
+Görevi:
 
-- Kullanıcıyı anlamak
-- Verileri analiz etmek
-- Araştırma yapmak
-- Öneriler üretmek
-- İş süreçlerini desteklemek
-- Stratejik karar desteği sağlamak
+- Kullanıcı ve şirket verilerini işlemek
+- AI modellerini yönetmek
+- Farklı AI ajanlarını çalıştırmak
+- Kişiselleştirilmiş yapay zeka deneyimi oluşturmak
+- Sistem içindeki AI servislerini yönetmek
 
 ---
 
-# 2. AI Modülleri
+# 2. AI Engine Katmanları
 
-## Research AI
+## AI Core
+
+Ana yapay zeka altyapısıdır.
 
 Görevleri:
 
-- Pazar araştırması
-- Rakip analizi
-- Sektör analizi
-- Trend analizi
-- Bilgi toplama ve değerlendirme
+- Model yönetimi
+- İstek işleme
+- AI servis koordinasyonu
+- Öğrenme süreçleri
 
 ---
 
-## CEO Advisor AI
+## AI Agent Layer
 
-Görevleri:
+SedatOS içindeki uzman AI ajanlarını yönetir.
 
-- Günlük şirket özeti
-- KPI analizi
-- Yönetim raporları
-- Stratejik öneriler
-- Risk değerlendirmesi
+Ajanlar:
 
----
+- Research AI
+- CEO Advisor AI
+- Decision Support AI
+- Business Intelligence AI
+- Risk AI
 
-## Decision Support AI
+Detaylı ajan yapısı:
 
-Görevleri:
-
-- Karar alternatifleri oluşturma
-- Avantaj/dezavantaj analizi
-- Risk analizi
-- Önerilen aksiyon planı oluşturma
-
-Karar formatı:
-
-1. Mevcut durum
-2. Analiz
-3. Riskler
-4. Alternatifler
-5. Önerilen aksiyon
+AI_AGENTS_SPECIFICATION.md
 
 ---
 
-## Business Intelligence AI
+## Memory Layer
 
-Görevleri:
-
-- Veri analizi
-- Performans ölçümü
-- Trend analizi
-- KPI takibi
-- Tahminleme
-
----
-
-## Risk AI
-
-Görevleri:
-
-- Finansal risk analizi
-- Operasyon riski
-- Proje riski
-- Müşteri riski
-- Süreç riskleri
-
----
-
-# 3. AI Hafıza Sistemi
-
-AI aşağıdaki bilgileri yönetir:
+AI hafıza sistemi:
 
 - Kullanıcı tercihleri
 - Kullanıcı geçmişi
 - Şirket bilgileri
-- Önceki kararlar
-- Kullanım alışkanlıkları
+- Önceki etkileşimler
 
-Amaç:
+Detay:
 
-Kullanıcıya ve şirkete özel yapay zeka deneyimi oluşturmak.
-
----
-
-# 4. Context Layer
-
-AI her işlem öncesinde şu bilgileri bilmeli:
-
-- Kullanıcı kim?
-- Kullanıcı rolü nedir?
-- Hangi şirkete bağlı?
-- Yetki seviyesi nedir?
-- Hangi verilere erişebilir?
+AI_CONTEXT_SYSTEM.md
 
 ---
 
-# 5. Kurumsal AI Yapısı
+## Integration Layer
+
+AI motorunun bağlandığı sistemler:
+
+- Veritabanı
+- API servisleri
+- Şirket uygulamaları
+- Harici AI servisleri
+
+---
+
+# 3. AI Çalışma Akışı
+
+Sistem akışı:
+
+1. Kullanıcı isteği alınır
+2. Yetki kontrol edilir
+3. Gerekli veriler toplanır
+4. Uygun AI ajanı seçilir
+5. İşlem gerçekleştirilir
+6. Sonuç kullanıcıya sunulur
+
+---
+
+# 4. Kurumsal AI Yapısı
 
 SedatOS AI Engine;
 
-kişisel asistan seviyesinden başlayarak:
+kişisel kullanıcıdan başlayarak:
 
 - KOBİ
 - Kurumsal şirket
 - Holding
 
-seviyesinde çalışabilecek şekilde tasarlanacaktır.
+seviyesinde çalışabilecek şekilde tasarlanmıştır.
 
 ---
 
-# 6. Gelecek AI Geliştirmeleri
+# 5. Gelecek Geliştirmeler
 
 Planlanan özellikler:
 
 - Sesli AI asistan
-- Otomatik rapor üretimi
-- Şirket içi bilgi bankası
-- AI otomasyon önerileri
+- Gelişmiş otomasyon motoru
 - Sektörel uzman AI ajanları
-- Kişisel ve kurumsal öğrenme sistemi
+- Şirket içi öğrenme sistemi
+- Gelişmiş AI model yönetimi
