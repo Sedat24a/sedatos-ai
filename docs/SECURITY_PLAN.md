@@ -2,24 +2,31 @@
 
 ## 1. Güvenlik Amacı
 
-SedatOS AI, kullanıcı ve şirket verilerini güvenli şekilde yönetmek için kurumsal güvenlik prensipleri ile geliştirilecektir.
+SedatOS AI, kullanıcı ve şirket verilerini korumak için kurumsal güvenlik prensipleriyle geliştirilecektir.
+
+Temel hedefler:
+
+- Veri gizliliği
+- Güvenli erişim
+- Yetkilendirme kontrolü
+- Sistem denetlenebilirliği
 
 ---
 
 # 2. Authentication
 
-Kullanılacak sistemler:
+Kullanılacak güvenlik yapıları:
 
 - Güvenli kullanıcı girişi
 - Oturum yönetimi
-- Token kontrolü
+- Token doğrulama
 - İki faktörlü doğrulama (2FA)
 
 ---
 
 # 3. Authorization
 
-Rol bazlı yetkilendirme:
+Rol bazlı erişim sistemi:
 
 - Kurucu
 - CEO
@@ -28,19 +35,18 @@ Rol bazlı yetkilendirme:
 - Çalışan
 - Kullanıcı
 
-Her rol sadece izin verilen verilere erişebilir.
+Her kullanıcı yalnızca yetkili olduğu alanlara erişebilir.
 
 ---
 
-# 4. Veri İzolasyonu
+# 4. Veri Güvenliği
 
-Kurumsal yapı için:
+Uygulanacak prensipler:
 
-- company_id kontrolü
-- Kullanıcı veri ayrımı
-- Şirketler arası erişim engeli
-
-uygulanacaktır.
+- Kullanıcı veri izolasyonu
+- Şirket veri ayrımı
+- Yetkisiz erişim engelleme
+- Güvenli veri aktarımı
 
 ---
 
@@ -48,9 +54,9 @@ uygulanacaktır.
 
 Kontroller:
 
-- Supabase RLS politikaları
+- RLS politikaları
 - Güvenli sorgular
-- Veri erişim kontrolü
+- Veri erişim kontrolleri
 - Audit kayıtları
 
 ---
@@ -59,19 +65,19 @@ Kontroller:
 
 AI sistemi:
 
-- Yetkisiz veri görmemeli
-- Kullanıcı rolünü kontrol etmeli
-- Şirket dışı bilgi erişmemeli
-- Hassas verileri korumalıdır
+- Yetki dışı veri kullanmaz.
+- Kullanıcı bağlamını kontrol eder.
+- Hassas bilgileri korur.
+- Güvenlik kurallarına uygun çalışır.
 
 ---
 
 # 7. Log ve Denetim
 
-Kayıt tutulacak alanlar:
+Tutulacak kayıtlar:
 
 - Kullanıcı işlemleri
-- Sistem hataları
+- Sistem olayları
 - Yetki değişiklikleri
 - Kritik işlemler
 
@@ -81,4 +87,4 @@ Kayıt tutulacak alanlar:
 
 SedatOS AI;
 
-KOBİ, kurumsal şirket ve holding seviyesinde güvenli şekilde kullanılabilecek altyapıya sahip olacaktır.
+KOBİ, kurumsal şirket ve holding seviyesinde güvenli şekilde kullanılabilecek güvenlik altyapısına sahip olacaktır.
