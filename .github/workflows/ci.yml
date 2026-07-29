@@ -9,9 +9,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: "./arka uc"
 
     steps:
     - name: Depoyu Klonla
@@ -23,10 +20,10 @@ jobs:
         go-version: '1.22'
 
     - name: Bağımlılıkları İndir
-      run: go mod download
+      run: cd "arka uc" && go mod download
 
     - name: Testleri Çalıştır
-      run: go test -v ./...
+      run: cd "arka uc" && go test -v ./...
 
     - name: Projeyi Derle (Build)
-      run: go build -v ./...
+      run: cd "arka uc" && go build -v ./...
