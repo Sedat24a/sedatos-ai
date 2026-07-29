@@ -2,46 +2,46 @@
 
 ## 1. Amaç
 
-Research AI, SedatOS AI içerisinde bilgi toplama, analiz etme ve karar destek süreçlerini yöneten yapay zeka modülüdür.
+Research AI, SedatOS AI içerisinde bilgi toplama, araştırma yapma ve elde edilen bilgileri değerlendirme görevini yürüten yapay zeka modülüdür.
 
-Amaç:
+Görevleri:
 
 - Araştırma yapmak
-- Bilgileri analiz etmek
-- Sonuçları özetlemek
-- Stratejik öneriler üretmek
+- Bilgi kaynaklarını değerlendirmek
+- Verileri karşılaştırmak
+- Araştırma sonuçları oluşturmak
 
 ---
 
-# 2. Araştırma Modları
+# 2. Araştırma Alanları
 
 ## Pazar Araştırması
 
-Analiz eder:
+Analiz edilen konular:
 
 - Sektör durumu
-- Pazar büyüklüğü
+- Pazar gelişmeleri
 - Rekabet ortamı
-- Fırsatlar
+- Fırsat alanları
 
 ---
 
 ## Rakip Analizi
 
-İnceler:
+İncelenen alanlar:
 
 - Rakip şirketler
-- Ürünler
-- Fiyatlandırma
+- Ürün ve hizmetler
+- Fiyatlandırma yapıları
 - Güçlü ve zayıf yönler
 
 ---
 
-## Şirket Analizi
+## Şirket Araştırması
 
-Analiz eder:
+Analiz edilen alanlar:
 
-- Finansal durum
+- Şirket bilgileri
 - Operasyon yapısı
 - Performans göstergeleri
 - Risk alanları
@@ -52,24 +52,23 @@ Analiz eder:
 
 Adımlar:
 
-1. Kullanıcı talebini anlama
+1. Kullanıcı talebini analiz etme
 2. Araştırma kapsamını belirleme
 3. Veri toplama
-4. Analiz yapma
-5. Sonuç oluşturma
-6. Öneri sunma
+4. Bilgileri değerlendirme
+5. Araştırma çıktısı oluşturma
 
 ---
 
 # 4. Kurumsal Kullanım
 
-Research AI:
+Research AI;
 
 - CEO
 - Yönetici
-- Departman yöneticisi
+- Departman yöneticileri
 
-seviyesinde farklı analiz derinlikleri sunacaktır.
+için farklı detay seviyelerinde araştırma sonuçları sağlayacaktır.
 
 ---
 
@@ -78,8 +77,7 @@ seviyesinde farklı analiz derinlikleri sunacaktır.
 Planlanan özellikler:
 
 - Canlı veri bağlantıları
-- Web araştırması
+- Gelişmiş web araştırması
 - Sektörel bilgi tabanı
-- Şirket içi doküman analizi
-- Otomatik rapor oluşturma
-- AI destekli strateji önerileri
+- Şirket doküman analizi
+- Otomatik araştırma raporları
