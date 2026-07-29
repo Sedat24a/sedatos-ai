@@ -2,26 +2,24 @@
 
 ## 1. Amaç
 
-SedatOS AI Agent sistemi, farklı görev alanlarında uzmanlaşmış yapay zeka ajanlarının birlikte çalışmasını sağlayan modüler AI yapısıdır.
+SedatOS AI Agent sistemi, farklı uzmanlık alanlarına sahip yapay zeka ajanlarının birlikte çalışmasını sağlayan modüler AI yapısıdır.
 
 Amaç:
 
 - Uzman AI görevleri oluşturmak
-- Karar süreçlerini desteklemek
-- Şirket operasyonlarını analiz etmek
-- Kullanıcı deneyimini kişiselleştirmek
+- İş süreçlerini desteklemek
+- Kullanıcı ve şirket ihtiyaçlarına özel çözümler üretmek
 
 ---
 
-# 2. AI Agent Yapısı
+# 2. AI Agent Çalışma Yapısı
 
 Her AI ajanı:
 
-- Kendi görev alanına sahip olur.
-- Belirlenen verilere erişir.
-- Kullanıcı rolünü kontrol eder.
-- Güvenlik kurallarına uyar.
-- Sonuçları analiz formatında sunar.
+- Belirli bir görev alanına sahiptir.
+- Tanımlı veri kaynaklarını kullanır.
+- Kendi uzmanlık alanında analiz üretir.
+- Sonuçları sistem standartlarına uygun sunar.
 
 ---
 
@@ -29,11 +27,11 @@ Her AI ajanı:
 
 Görevleri:
 
-- Şirket genel durum analizi
-- KPI değerlendirmesi
-- Yönetim raporu oluşturma
-- Stratejik öneriler üretme
-- Kritik konuları bildirme
+- Şirket durum analizi
+- Yönetim raporları
+- KPI değerlendirmeleri
+- Stratejik öneriler
+- Kritik durum bildirimleri
 
 ---
 
@@ -53,11 +51,10 @@ Görevleri:
 
 Görevleri:
 
-- Gelir analizleri
-- Gider analizleri
-- Finansal trendler
-- Bütçe değerlendirmeleri
-- Finansal risk tespiti
+- Gelir ve gider analizi
+- Finansal trend analizi
+- Bütçe değerlendirmesi
+- Finansal durum raporları
 
 ---
 
@@ -67,8 +64,7 @@ Görevleri:
 
 - Müşteri analizleri
 - Satış fırsatları
-- Müşteri davranışları
-- İletişim önerileri
+- Müşteri davranışı analizi
 - Müşteri değer analizi
 
 ---
@@ -78,10 +74,9 @@ Görevleri:
 Görevleri:
 
 - Personel analizleri
-- Performans değerlendirme
-- İşe alım desteği
-- Eğitim önerileri
+- Performans değerlendirmeleri
 - İnsan kaynakları raporları
+- Eğitim önerileri
 
 ---
 
@@ -89,11 +84,10 @@ Görevleri:
 
 Görevleri:
 
+- Finans risk analizi
 - Operasyon riskleri
-- Finans riskleri
 - Proje riskleri
 - Müşteri kaybı riskleri
-- Süreç problemleri
 
 ---
 
@@ -101,21 +95,20 @@ Görevleri:
 
 Görevleri:
 
+- Süreç otomasyonu önerileri
 - Tekrarlayan işleri belirleme
-- Süreç otomasyonu önerme
-- Görev dağılımı önerme
-- İş akışlarını optimize etme
+- İş akışı iyileştirme
+- Verimlilik önerileri
 
 ---
 
-# 10. Agent Yönetim Sistemi
+# 10. Agent Yönetimi
 
-Gelecek yapı:
+Gelecek özellikler:
 
-- Yeni AI ajan oluşturma
+- Yeni ajan oluşturma
 - Ajan yetkilendirme
-- Ajan performans takibi
-- Ajan hafızası
+- Performans takibi
 - Ajanlar arası iletişim
 
 ---
@@ -124,4 +117,4 @@ Gelecek yapı:
 
 SedatOS AI Agent sistemi;
 
-bireysel kullanıcıdan başlayarak KOBİ, kurumsal şirket ve holding seviyesinde çalışan uzman yapay zeka ekosistemi olarak geliştirilecektir.
+kişisel kullanıcıdan başlayarak KOBİ, kurumsal şirket ve holding seviyesinde çalışan uzman yapay zeka ekosistemi olarak geliştirilecektir.
