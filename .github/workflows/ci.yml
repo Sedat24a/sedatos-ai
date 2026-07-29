@@ -1,0 +1,29 @@
+name: SedatOS CI
+
+on:
+  push:
+    branches: [ "main", "master" ]
+  pull_request:
+    branches: [ "main", "master" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Depoyu Klonla
+      uses: actions/checkout@v4
+
+    - name: Go Kurulumu
+      uses: actions/setup-go@v5
+      with:
+        go-version: '1.22'
+
+    - name: Bağımlılıkları İndir
+      run: go mod download
+
+    - name: Testleri Çalıştır
+      run: go test -v ./...
+
+    - name: Projeyi Derle (Build)
+      run: go build -v ./...
