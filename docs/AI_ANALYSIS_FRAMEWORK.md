@@ -8,9 +8,9 @@ Amaç:
 
 - Verileri anlamlandırmak
 - Trendleri belirlemek
-- Riskleri tespit etmek
-- Karar desteği sağlamak
-- Stratejik öneriler üretmek
+- Performansı ölçmek
+- Riskleri erken tespit etmek
+- Tahmin modelleri oluşturmak
 
 ---
 
@@ -37,6 +37,7 @@ Analiz edilen alanlar:
 - Proje ilerlemesi
 - Çalışan durumu
 - Müşteri hareketleri
+- Süreç verimliliği
 
 ---
 
@@ -52,16 +53,17 @@ Kontrol edilen alanlar:
 
 ---
 
-# 3. AI Karar Analiz Formatı
+# 3. Veri Analiz Süreci
 
-Her analiz şu yapıda hazırlanır:
+AI analiz süreci:
 
-1. Mevcut durum
-2. Veri analizi
-3. Tespit edilen problemler
-4. Riskler
-5. Alternatif çözümler
-6. Önerilen aksiyon
+1. Veri toplama
+2. Veri temizleme
+3. Veri değerlendirme
+4. Örüntü ve trend analizi
+5. Sonuç üretme
+
+Karar önerileri için AI Decision Support sistemi kullanılır.
 
 ---
 
@@ -73,6 +75,7 @@ Gelecek analizleri:
 - Satış tahmini
 - Risk tahmini
 - İş yoğunluğu tahmini
+- Trend analizi
 
 üzerine kurulacaktır.
 
@@ -88,6 +91,7 @@ AI aşağıdaki kaynaklardan yararlanabilir:
 - Proje verileri
 - Finans kayıtları
 - Dokümanlar
+- Sistem aktiviteleri
 
 ---
 
@@ -98,7 +102,7 @@ AI:
 - Bilinen bilgiyi gerçek olarak sunar.
 - Belirsiz bilgiyi belirtir.
 - Tahmin ile gerçeği ayırır.
-- Veri olmadan kesin karar üretmez.
+- Veri olmadan kesin sonuç üretmez.
 
 ---
 
@@ -106,4 +110,4 @@ AI:
 
 SedatOS AI Analysis Framework;
 
-CEO, yönetici ve şirket ekiplerine veri destekli karar verme altyapısı sağlayacaktır.
+CEO, yöneticiler ve ekipler için veri destekli analiz, performans ölçümü ve öngörü altyapısı sağlayacaktır.
