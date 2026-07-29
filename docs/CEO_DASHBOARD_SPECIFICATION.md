@@ -2,14 +2,14 @@
 
 ## 1. Amaç
 
-CEO Dashboard, şirket yönetiminin tüm kritik verilerini tek ekranda analiz eden yönetim panelidir.
+CEO Dashboard, şirket yönetiminin kritik bilgilerini tek merkezden görüntüleyen yönetim panelidir.
 
 Amaç:
 
-- Şirket durumunu görmek
-- Kritik kararları desteklemek
-- Riskleri erken tespit etmek
-- Performansı ölçmek
+- Şirket durumunu takip etmek
+- Performans göstergelerini görmek
+- Kritik konuları hızlı fark etmek
+- Yönetim süreçlerini desteklemek
 
 ---
 
@@ -19,12 +19,12 @@ Amaç:
 
 Gösterilecek bilgiler:
 
-- Toplam çalışan sayısı
+- Çalışan sayısı
 - Aktif projeler
 - Müşteri durumu
 - Finans özeti
 - Açık görevler
-- Kritik uyarılar
+- Kritik bildirimler
 
 ---
 
@@ -36,7 +36,7 @@ Takip edilecek göstergeler:
 - Gider
 - Kârlılık
 - Satış performansı
-- Proje ilerleme oranı
+- Proje ilerleme durumu
 - Çalışan performansı
 
 ---
@@ -46,55 +46,47 @@ Takip edilecek göstergeler:
 AI tarafından hazırlanacak:
 
 - Günlük şirket özeti
-- Haftalık analiz
-- Risk uyarıları
+- Haftalık yönetim özeti
+- Kritik bildirimler
 - Fırsat önerileri
 - Öncelikli aksiyonlar
 
 ---
 
-# 3. Risk Merkezi
+# 3. Risk Görünümü
 
 Dashboard üzerinde:
 
-- Finansal riskler
-- Operasyon riskleri
-- Proje riskleri
-- Müşteri riskleri
+- Finans risk bildirimleri
+- Operasyon uyarıları
+- Proje durumları
+- Müşteri durumları
 
 görüntülenir.
+
+Detaylı risk analizi:
+
+AI_ANALYSIS_FRAMEWORK.md
 
 ---
 
 # 4. Rol Bazlı Görünüm
 
-CEO:
+## CEO
 
-- Tüm şirket verileri
+- Şirket genel görünümü
 
-Yönetici:
+## Yönetici
 
-- Kendi departman verileri
+- Departman görünümü
 
-Çalışan:
+## Çalışan
 
 - Kendi görevleri ve izin verilen bilgiler
 
 ---
 
-# 5. Karar Destek Sistemi
-
-AI karar formatı:
-
-1. Mevcut durum
-2. Veri analizi
-3. Riskler
-4. Alternatif çözümler
-5. Önerilen karar
-
----
-
-# 6. Gelecek Geliştirmeler
+# 5. Gelecek Geliştirmeler
 
 Planlanan özellikler:
 
