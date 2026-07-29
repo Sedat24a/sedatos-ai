@@ -2,28 +2,28 @@
 
 ## 1. Amaç
 
-SedatOS AI'nin bireysel kullanım seviyesinden kurumsal şirket ve holding seviyesine ulaşması için geliştirme yol haritasıdır.
+SedatOS AI'nin kişisel kullanım seviyesinden kurumsal şirket ve holding seviyesine ulaşması için geliştirme yol haritasıdır.
 
 ---
 
-# 2. Aşama 1 - Temel Sistem
+# 2. Aşama 1 - Temel Altyapı
 
-Tamamlanacaklar:
+Hedefler:
 
 - Kullanıcı sistemi
-- Rol ve yetki yapısı
+- Rol ve yetki altyapısı
 - Güvenli veri yönetimi
-- AI temel altyapısı
-- Dashboard sistemi
+- Temel AI altyapısı
+- İlk çalışan prototip
 
 ---
 
 # 3. Aşama 2 - Business OS
 
-Geliştirilecek modüller:
+Geliştirilecek alanlar:
 
 - Şirket yönetimi
-- CRM
+- CRM altyapısı
 - Proje yönetimi
 - Personel yönetimi
 - Doküman yönetimi
@@ -33,25 +33,25 @@ Geliştirilecek modüller:
 
 # 4. Aşama 3 - Enterprise AI
 
-AI özellikleri:
+Geliştirilecek AI yetenekleri:
 
-- CEO danışmanı
-- Karar destek sistemi
-- Risk analizi
-- Business Intelligence
-- Şirket bilgi hafızası
+- Yönetim destek sistemleri
+- Karar destek altyapısı
+- Risk analizleri
+- Veri analiz sistemleri
+- Şirket bilgi yönetimi
 
 ---
 
-# 5. Aşama 4 - Holding Yapısı
+# 5. Aşama 4 - Holding Seviyesi
 
-Hedef özellikler:
+Hedefler:
 
 - Çoklu şirket yönetimi
-- Merkezi yönetim paneli
+- Merkezi yönetim altyapısı
 - Konsolide raporlama
-- Şirketler arası analiz
-- Stratejik planlama
+- Grup şirket analizleri
+- Stratejik yönetim desteği
 
 ---
 
@@ -61,9 +61,9 @@ Uzun vadeli hedefler:
 
 - Çoklu dil desteği
 - Global kullanıcı altyapısı
-- AI ajan mağazası
+- AI ajan ekosistemi
 - Entegrasyon merkezi
-- Geliştirici ekosistemi
+- Geliştirici platformu
 
 ---
 
@@ -72,7 +72,7 @@ Uzun vadeli hedefler:
 Her aşamada:
 
 1. Analiz
-2. Mimari plan
+2. Mimari planlama
 3. Güvenlik kontrolü
 4. Geliştirme
 5. Test
