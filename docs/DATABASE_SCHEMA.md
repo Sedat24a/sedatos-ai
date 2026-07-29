@@ -2,7 +2,14 @@
 
 ## 1. Amaç
 
-SedatOS AI veritabanı yapısı, kişisel kullanıcı yönetimi ile kurumsal şirket yönetimini aynı altyapıda desteklemek için tasarlanmıştır.
+SedatOS AI veritabanı yapısı, kişisel kullanım ve kurumsal şirket yönetimini destekleyen temel veri altyapısıdır.
+
+Amaç:
+
+- Kullanıcı verilerini yönetmek
+- Şirket verilerini organize etmek
+- AI sistemleri için gerekli veri yapılarını sağlamak
+- Modüller arası veri bağlantısı oluşturmak
 
 ---
 
@@ -15,7 +22,6 @@ Kullanıcı bilgileri:
 - Kullanıcı kimliği
 - Profil bilgileri
 - Rol bilgisi
-- Yetki bilgisi
 - Tercihler
 
 ---
@@ -24,11 +30,10 @@ Kullanıcı bilgileri:
 
 Şirket bilgileri:
 
-- Şirket adı
 - Şirket bilgileri
 - Organizasyon yapısı
-- Departmanlar
-- Kullanıcı bağlantıları
+- Departman bağlantıları
+- Kullanıcı ilişkileri
 
 ---
 
@@ -36,11 +41,10 @@ Kullanıcı bilgileri:
 
 Görev sistemi:
 
-- Görev adı
-- Açıklama
+- Görev bilgileri
 - Durum
 - Öncelik
-- Atanan kullanıcı
+- Kullanıcı bağlantısı
 
 ---
 
@@ -49,7 +53,7 @@ Görev sistemi:
 Proje yönetimi:
 
 - Proje bilgileri
-- Proje durumu
+- Durum
 - Takım bilgileri
 - Görev bağlantıları
 
@@ -71,22 +75,20 @@ CRM verileri:
 Doküman yönetimi:
 
 - Dosya bilgileri
-- Yetkilendirme
-- Versiyon kontrolü
-- Şirket bağlantısı
+- Versiyon bilgileri
+- Yetkilendirme bilgileri
 
 ---
 
 # 3. AI Veri Yapıları
 
-## AI Memory
+## AI Memory Records
 
-AI hafızası:
+AI hafıza kayıtları:
 
-- Kullanıcı tercihleri
-- Önceki konuşmalar
-- Kullanım alışkanlıkları
-- Şirket bilgileri
+- Kullanıcı etkileşimleri
+- Sistem geçmişi
+- AI öğrenme verileri
 
 ---
 
@@ -95,27 +97,25 @@ AI hafızası:
 AI analiz kayıtları:
 
 - Analiz türü
-- Sonuçlar
-- Öneriler
+- Sonuç verileri
 - Tarih bilgisi
 
 ---
 
-# 4. Güvenlik Yapısı
+# 4. Veri İzolasyonu
 
-Tüm kurumsal tablolar:
+Kurumsal veri yapıları:
 
 - company_id
 - user_id
-- role kontrolü
 
-ile izole edilir.
+bağlantıları ile ayrıştırılır.
 
 ---
 
 # 5. Gelecek Veri Modelleri
 
-Planlanan tablolar:
+Planlanan yapılar:
 
 - Risk yönetimi
 - Finans analizleri
