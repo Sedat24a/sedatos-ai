@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./arka uc
+        working-directory: "./arka uc"
 
     steps:
     - name: Depoyu Klonla
