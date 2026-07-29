@@ -14,16 +14,13 @@ jobs:
     - name: Depoyu Klonla
       uses: actions/checkout@v4
 
-    - name: Go Kurulumu
-      uses: actions/setup-go@v5
+    - name: Node.js Kurulumu
+      uses: actions/setup-node@v4
       with:
-        go-version: '1.22'
+        node-version: '20'
 
-    - name: Bağımlılıkları İndir
-      run: cd "arka uc" && go mod download
-
-    - name: Testleri Çalıştır
-      run: cd "arka uc" && go test -v ./...
-
-    - name: Projeyi Derle (Build)
-      run: cd "arka uc" && go build -v ./...
+    - name: Bağımlılıkları Yükle ve Test Et
+      run: |
+        cd "arka uc"
+        npm install
+        npm test
