@@ -1,81 +1,74 @@
-import {
-  Paper,
-  Typography,
-  List,
-  ListItem,
-  ListItemText
-} from "@mui/material";
+import { Paper, Typography, Box } from "@mui/material";
+import { navigation } from "../../engine/navigation/navigation";
+
+function Sidebar(){
+
+return(
+
+<Paper
+square
+sx={{
+width:280,
+height:"100vh",
+background:"#09090B",
+color:"#fff",
+p:3
+}}
+>
+
+<Typography
+variant="h5"
+sx={{mb:4,fontWeight:700}}
+>
+SedatOS AI
+</Typography>
 
 
-function Sidebar() {
+{navigation.map(item=>(
 
-  const menu = [
-    "Dashboard",
-    "AI Copilot",
-    "CRM",
-    "ERP",
-    "Finans",
-    "Takvim",
-    "Gayrimenkul",
-    "Ayarlar"
-  ];
+<Box
+key={item.id}
+sx={{
+mb:2,
+p:1.5,
+borderRadius:2,
+cursor:"pointer",
+"&:hover":{
+background:"#18181B"
+}
+}}
+>
 
-
-  return (
-
-    <Paper
-      square
-      sx={{
-        width:280,
-        borderRadius:0,
-        p:3,
-        background:"#09090B",
-        color:"white"
-      }}
-    >
-
-      <Typography
-        variant="h5"
-        sx={{
-          mb:4,
-          fontWeight:700
-        }}
-      >
-        SedatOS AI
-      </Typography>
+<Typography>
+{item.title}
+</Typography>
 
 
-      <List>
+{item.children?.map(child=>(
 
-        {menu.map((item)=>(
+<Typography
+key={child.path}
+sx={{
+ml:2,
+mt:1,
+fontSize:14,
+color:"#A1A1AA"
+}}
+>
+{child.title}
+</Typography>
 
-          <ListItem
-            key={item}
-            sx={{
-              borderRadius:2,
-              mb:1,
-              cursor:"pointer",
-              "&:hover":{
-                background:"#1F2937"
-              }
-            }}
-          >
+))}
 
-            <ListItemText
-              primary={item}
-            />
+</Box>
 
-          </ListItem>
-
-        ))}
-
-      </List>
+))}
 
 
-    </Paper>
+</Paper>
 
-  );
+);
+
 }
 
-
-export default Sidebar;s
+export default Sidebar;

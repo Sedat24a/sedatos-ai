@@ -1,25 +1,51 @@
-export const navigation=[
+export const navigation = [
 
-{id:"dashboard",title:"Dashboard",icon:"dashboard"},
+  {
+    id:"dashboard",
+    title:"Kontrol Paneli",
+    icon:"dashboard",
+    path:"/"
+  },
 
-{id:"ai",title:"AI Center",icon:"sparkles"},
+  {
+    id:"ai",
+    title:"AI Yardýmcý Pilot",
+    icon:"smart_toy",
+    path:"/ai"
+  },
 
-{id:"crm",title:"CRM",icon:"users"},
+  {
+    id:"business",
+    title:"Business OS",
+    icon:"business",
+    children:[
+      {
+        title:"CRM",
+        path:"/crm"
+      },
+      {
+        title:"ERP",
+        path:"/erp"
+      },
+      {
+        title:"Finans",
+        path:"/finance"
+      }
+    ]
+  },
 
-{id:"erp",title:"ERP",icon:"building"},
+  {
+    id:"realestate",
+    title:"Gayrimenkul",
+    icon:"home",
+    path:"/real-estate"
+  },
 
-{id:"finance",title:"Finance",icon:"wallet"},
-
-{id:"calendar",title:"Calendar",icon:"calendar"},
-
-{id:"mail",title:"Communication",icon:"mail"},
-
-{id:"documents",title:"Documents",icon:"files"},
-
-{id:"automation",title:"Automation",icon:"cpu"},
-
-{id:"analytics",title:"Analytics",icon:"chart"},
-
-{id:"settings",title:"Settings",icon:"settings"}
+  {
+    id:"settings",
+    title:"Ayarlar",
+    icon:"settings",
+    path:"/settings"
+  }
 
 ];

@@ -1,137 +1,78 @@
-import {
-  Grid,
-  Paper,
-  Typography,
-  Box
-} from "@mui/material";
-
-
-const widgets = [
-  {
-    title: "AI GÃ¼nlÃ¼k Analiz",
-    value: "HazÄ±r",
-    text: "Yapay zeka analiz motoru aktif"
-  },
-  {
-    title: "GÃ¶revler",
-    value: "12",
-    text: "Ã–ncelikli gÃ¶rev"
-  },
-  {
-    title: "Åžirket Skoru",
-    value: "87%",
-    text: "Performans analizi"
-  },
-  {
-    title: "AI HafÄ±za",
-    value: "25",
-    text: "Ã–ÄŸrenilen veri"
-  }
-];
-
+import { Grid, Paper, Typography, Box } from "@mui/material";
 
 function Dashboard() {
+  const cards = [
+    "AI Durumu",
+    "Bugünkü Görevler",
+    "Finans Analizi",
+    "Þirket Verileri"
+  ];
 
   return (
     <Box sx={{p:3}}>
-
-      <Typography
-        variant="h4"
-        sx={{
-          mb:3,
-          fontWeight:700
-        }}
-      >
-        SedatOS Kontrol Merkezi
+      <Typography variant="h4" sx={{mb:3,color:"#fff"}}>
+        SedatOS Kontrol Paneli
       </Typography>
-
 
       <Grid container spacing={3}>
 
-        {widgets.map((item)=>(
-
-          <Grid
-            item
-            xs={12}
-            md={3}
-            key={item.title}
-          >
-
+        {cards.map((item)=>(
+          <Grid size={{xs:12,md:3}} key={item}>
             <Paper
               sx={{
                 p:3,
                 height:160,
-                borderRadius:3,
                 background:"#111827",
                 color:"#fff"
               }}
             >
-
-              <Typography>
-                {item.title}
+              <Typography variant="h6">
+                {item}
               </Typography>
 
-              <Typography
-                variant="h3"
-                sx={{mt:2}}
-              >
-                {item.value}
-              </Typography>
-
-              <Typography variant="caption">
-                {item.text}
+              <Typography sx={{mt:2,color:"#94a3b8"}}>
+                AI analiz bekliyor
               </Typography>
 
             </Paper>
-
           </Grid>
-
         ))}
 
 
-        <Grid item xs={12} md={8}>
-
+        <Grid size={{xs:12,md:8}}>
           <Paper
             sx={{
-              height:420,
+              height:450,
               p:3,
-              borderRadius:3
+              background:"#111827",
+              color:"#fff"
             }}
           >
-
             <Typography variant="h5">
-              Yapay Zeka YÃ¶netim Merkezi
+              Yapay Zeka Ýþletim Merkezi
             </Typography>
-
           </Paper>
-
         </Grid>
 
 
-        <Grid item xs={12} md={4}>
-
+        <Grid size={{xs:12,md:4}}>
           <Paper
             sx={{
-              height:420,
+              height:450,
               p:3,
-              borderRadius:3
+              background:"#111827",
+              color:"#fff"
             }}
           >
-
             <Typography variant="h5">
-              Yapay Zeka YardÄ±mcÄ± Pilotu
+              AI Yardýmcý Pilot
             </Typography>
-
           </Paper>
-
         </Grid>
-
 
       </Grid>
-
     </Box>
   );
 }
-
 
 export default Dashboard;
