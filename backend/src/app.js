@@ -3,6 +3,7 @@ const cors = require("cors");
 
 const requestId = require("./middlewares/requestId");
 const errorHandler = require("./middlewares/errorHandler");
+const routes = require("./routes");
 
 const app = express();
 
@@ -33,13 +34,7 @@ app.get("/", (req, res) => {
   });
 });
 
-app.get("/health", (req, res) => {
-  res.status(200).json({
-    status: "ok",
-    service: "SedatOS AI API",
-    requestId: req.id
-  });
-});
+app.use("/api", routes);
 
 app.use(errorHandler);
 
